@@ -1,10 +1,11 @@
 package ru.netology.domain;
 
 public class CommentsInfo {
-    private String comment;
-    private String author;
-    private int countLikeComment;
-    private String timeComment;
+    private int count;
+    private boolean canPost;
+    private boolean groupsCanPost;
+    private boolean canClose;
+    private boolean canOpen;
 
 //    getters + setters
 }
